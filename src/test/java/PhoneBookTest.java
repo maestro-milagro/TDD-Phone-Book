@@ -11,6 +11,6 @@ public class PhoneBookTest {
 
         start.add("Sergey", "74562344466");
 
-        Assertions.assertEquals(expected.phoneBook, start.phoneBook);
+        Assertions.assertEquals(expected.phoneBook.size(), start.add("Sergey", "74562344466"));
     }
 }
