@@ -9,8 +9,18 @@ public class PhoneBookTest {
         PhoneBook expected = new PhoneBook();
         expected.phoneBook.put("Sergey", "74562344466");
 
-        start.add("Sergey", "74562344466");
+        int result = start.add("Sergey", "74562344466");
 
-        Assertions.assertEquals(expected.phoneBook.size(), start.add("Sergey", "74562344466"));
+        Assertions.assertEquals(expected.phoneBook.size(), result);
+    }
+    @Test
+    public void findByNumberTest(){
+        PhoneBook expect = new PhoneBook();
+        expect.phoneBook.put("Sergey", "74562344466");
+        String expected = "Sergey";
+
+        String result = expect.findByNumber("74562344466");
+
+        Assertions.assertEquals(expected, result);
     }
 }
