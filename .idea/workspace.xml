@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fad4dd5-4661-4c13-88a5-1477ba9cf8e4" name="Changes" comment="Stub and tests for findByNumber">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PhoneBook.java" afterDir="false" />
-    </list>
+    <list default="true" id="7fad4dd5-4661-4c13-88a5-1477ba9cf8e4" name="Changes" comment="findByNumber implemented" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,12 +37,22 @@
     "last_opened_file_path": "C:/Users/milla/IdeaProjects/TDD_Phone_Book"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PhoneBookTest.findByNumberTest">
+  <component name="RunManager" selected="JUnit.PhoneBookTest.findByNameTest">
     <configuration name="PhoneBookTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Phone_Book" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PhoneBookTest" />
       <option name="METHOD_NAME" value="addTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneBookTest.findByNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_Phone_Book" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PhoneBookTest" />
+      <option name="METHOD_NAME" value="findByNameTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,6 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PhoneBookTest.findByNameTest" />
         <item itemvalue="JUnit.PhoneBookTest.findByNumberTest" />
         <item itemvalue="JUnit.PhoneBookTest.addTest" />
       </list>
@@ -105,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683210602080</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="findByNumber implemented">
+      <created>1683287453732</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683287453732</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +139,7 @@
     <MESSAGE value="Stub and tests for add" />
     <MESSAGE value="add implemented" />
     <MESSAGE value="Stub and tests for findByNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stub and tests for findByNumber" />
+    <MESSAGE value="findByNumber implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="findByNumber implemented" />
   </component>
 </project>
