@@ -1,5 +1,7 @@
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class PhoneBook {
     Map<String, String> phoneBook = new HashMap<>();
@@ -21,6 +23,12 @@ public class PhoneBook {
             return "Нет такого пользователя";
         }
         return phoneBook.get(name);
+    }
+
+    public void printAllNames(){
+        for(Map.Entry<String, String> entry : phoneBook.entrySet()){
+            System.out.println(entry.getKey());
+        }
     }
 
 }

@@ -33,5 +33,6 @@ public class PhoneBookTest {
         String result = expect.findByName("Sergey");
 
         Assertions.assertEquals(expected, result);
+
     }
 }
