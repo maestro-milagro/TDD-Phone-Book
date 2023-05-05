@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fad4dd5-4661-4c13-88a5-1477ba9cf8e4" name="Changes" comment="add implemented">
+    <list default="true" id="7fad4dd5-4661-4c13-88a5-1477ba9cf8e4" name="Changes" comment="Stub and tests for findByNumber">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PhoneBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PhoneBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PhoneBookTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/milla/IdeaProjects/blank"
+    "last_opened_file_path": "C:/Users/milla/IdeaProjects/TDD_Phone_Book"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.PhoneBookTest.findByNumberTest">
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683209169067</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Stub and tests for findByNumber">
+      <created>1683210602080</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683210602080</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +123,7 @@
     <MESSAGE value="Init commit" />
     <MESSAGE value="Stub and tests for add" />
     <MESSAGE value="add implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="add implemented" />
+    <MESSAGE value="Stub and tests for findByNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stub and tests for findByNumber" />
   </component>
 </project>

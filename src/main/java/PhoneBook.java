@@ -8,7 +8,13 @@ public class PhoneBook {
         return phoneBook.size();
     }
     public String findByNumber(String number){
-        return null;
+        String answer = "Нет пользователя с таким номером";
+        for(Map.Entry<String, String> entry : phoneBook.entrySet()){
+            if (entry.getValue().equals(number)){
+                answer = entry.getKey();
+            }
+        }
+        return answer;
     }
 
 }
