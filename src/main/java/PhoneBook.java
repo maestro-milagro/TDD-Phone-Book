@@ -17,7 +17,10 @@ public class PhoneBook {
         return answer;
     }
     public String findByName(String name){
-        return null;
+        if (!phoneBook.containsKey(name)){
+            return "Нет такого пользователя";
+        }
+        return phoneBook.get(name);
     }
 
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fad4dd5-4661-4c13-88a5-1477ba9cf8e4" name="Changes" comment="findByNumber implemented" />
+    <list default="true" id="7fad4dd5-4661-4c13-88a5-1477ba9cf8e4" name="Changes" comment="Stub and tests for findByName" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683287453732</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Stub and tests for findByName">
+      <created>1683288324429</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683288324429</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +147,7 @@
     <MESSAGE value="add implemented" />
     <MESSAGE value="Stub and tests for findByNumber" />
     <MESSAGE value="findByNumber implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="findByNumber implemented" />
+    <MESSAGE value="Stub and tests for findByName" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stub and tests for findByName" />
   </component>
 </project>
